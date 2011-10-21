@@ -12,7 +12,7 @@ Easy internal link by oEmbed.
 
 Easy internal link by oEmbed.
 
-[This plugin maintained on GitHub.](https://github.com/miya0001/)
+[This plugin maintained on GitHub.](https://github.com/miya0001/oembed-internal-link)
 
 = filter hooks example =
 
