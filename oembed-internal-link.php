@@ -10,8 +10,6 @@ Domain Path: /languages
 Text Domain: oembed-internal-link
 */
 
-new childPagesShortcode();
-
 new internalLinks();
 
 class internalLinks {
