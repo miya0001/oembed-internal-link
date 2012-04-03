@@ -1,10 +1,10 @@
 === oEmbed Internal Link ===
 Contributors: miyauchi
-Donate link: http://firegoby.theta.ne.jp/
-Tags: widget 
+Donate link: http://firegoby.jp/
+Tags: widget
 Requires at least: 3.2
-Tested up to: 3.2
-Stable tag: 0.2.0
+Tested up to: 3.3.1
+Stable tag: 0.3.0
 
 Easy internal link by oEmbed.
 
@@ -45,7 +45,7 @@ Filter for stylesheet URI.
 
 = Contributors =
 
-* [Takayuki Miyauchi](http://firegoby.theta.ne.jp/)
+* [Takayuki Miyauchi](http://firegoby.jp/)
 
 == Installation ==
 

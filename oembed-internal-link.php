@@ -2,10 +2,10 @@
 /*
 Plugin Name: oEmbed Intarnal Link
 Author: Takayuki Miyauchi
-Plugin URI: http://firegoby.theta.ne.jp/wp/oembed-internal-link
+Plugin URI: http://firegoby.jp/wp/oembed-internal-link
 Description: Display thumbnail link from URL.
-Version: 0.2.0
-Author URI: http://firegoby.theta.ne.jp/
+Version: 0.3.0
+Author URI: http://firegoby.jp/
 Domain Path: /languages
 Text Domain: oembed-internal-link
 */
@@ -27,7 +27,7 @@ function __construct()
 
 public function wp_head()
 {
-    $url = WP_PLUGIN_URL.'/'.dirname(plugin_basename(__FILE__)).'/style.css';
+    $url = plugins_url("", __FILE__).'/style.css';
     printf(
         '<link rel="stylesheet" type="text/css" media="all" href="%s" />'."\n",
         apply_filters("oembed-internal-link-stylesheet", $url)

@@ -1,0 +1,60 @@
+.internal-link
+{
+    overflow: auto;
+    background-image: url(img/bg.png);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    padding: 10px;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.internal-link .post-thumb
+{
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.internal-link .post-thumb img
+{
+    border: none;
+}
+
+.internal-link .post-content
+{
+    overflow: hidden;
+}
+
+.internal-link .post-content h4
+{
+    margin: 0 0 10px 0 !important;
+    border-bottom: 1px dashed #dedede;
+    padding: 0 5px 5px 5px;
+    font-size: 16px;
+}
+
+.internal-link .post-excerpt
+{
+    line-height: 1.25em;
+}
+
+.internal-link .more a
+{
+    text-indent: -9999px;
+    width: 101px;
+    height: 22px;
+    overflow: hidden;
+    display: block;
+    background-image: url(img/more.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin: 10px 5px;
+}
+
+.internal-link .more a:hover
+{
+    background-position: left bottom;
+}
+
