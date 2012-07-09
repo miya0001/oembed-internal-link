@@ -3,8 +3,8 @@ Contributors: miyauchi
 Donate link: http://firegoby.jp/
 Tags: widget
 Requires at least: 3.2
-Tested up to: 3.3.1
-Stable tag: 0.3.0
+Tested up to: 3.4.1
+Stable tag: 0.4.0
 
 Easy internal link by oEmbed.
 
