@@ -21,16 +21,22 @@ class internalLinks
 			'#^(' . home_url() . '/.+)$#i',
 			array( $this, 'handler' )
 		);
-		add_action( 'wp_head', array( $this, 'wp_head' ) );
+
+		add_action( 'wp_enqueue_scripts', array( $this, 'wp_enqueue_scripts' ) );
 	}
 
-	public function wp_head()
+	public function wp_enqueue_scripts()
 	{
-		$url = plugins_url( "", __FILE__ ).'/style.css';
-		printf(
-			'<link rel="stylesheet" type="text/css" media="all" href="%s" />'."\n",
-			apply_filters( "oembed-internal-link-stylesheet", $url )
-		);
+		$url = apply_filters( "oembed_internal_link_stylesheet", plugins_url( "", __FILE__ ).'/style.css' );
+
+		if ( $url ) {
+			wp_enqueue_style(
+				'oembed_internal_link_stylesheet'
+				apply_filters( "oembed_internal_link_stylesheet", $url ),
+				array(),
+				'v0.5.0'
+			);
+		}
 	}
 
 	private function template()
