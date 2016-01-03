@@ -31,7 +31,7 @@ class internalLinks
 
 		if ( $url ) {
 			wp_enqueue_style(
-				'oembed_internal_link_stylesheet'
+				'oembed_internal_link_stylesheet',
 				apply_filters( "oembed_internal_link_stylesheet", $url ),
 				array(),
 				'v0.5.0'
@@ -50,7 +50,7 @@ class internalLinks
 		$html .= '<div class="post-excerpt">%post_excerpt%</div>';
 		$html .= '</div>';
 		$html .= '</div>';
-		return apply_filters( "oembed-internal-link-template", $html );
+		return apply_filters( "oembed_internal_link_template", $html );
 	}
 
 	public function handler( $matches, $attr, $url, $rawattr )
