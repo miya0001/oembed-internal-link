@@ -4,7 +4,7 @@ Plugin Name: oEmbed Intarnal Link
 Author: Takayuki Miyauchi
 Plugin URI: http://firegoby.jp/wp/oembed-internal-link
 Description: Display thumbnail link from URL.
-Version: 0.4.0
+Version: 0.5.0
 Author URI: http://firegoby.jp/
 Domain Path: /languages
 Text Domain: oembed-internal-link
